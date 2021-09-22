@@ -13,7 +13,7 @@ void ft_loop(t_struct *data)
 		printf("pipposhell> ");
 		data->line = readline(data->line);
 		ft_check_chekka(data);
-		ft_cmd_args(data):
+		ft_cmd_args(data);
 		// printf("%s\n", data->line);
 		// while (data->matrix[j])
 		// {
